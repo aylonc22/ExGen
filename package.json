@@ -1,0 +1,25 @@
+{
+  "name": "exgen",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "ExGen is a minimalist CLI tool for quickly creating Express backend applications. It provides a ready-to-use project structure, including routes, controllers, middleware, and optional database setup. Whether you want a simple API or a starting point for a more complex backend, ExGen helps you get started in seconds with zero manual setup.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "exgen": "./bin/cli.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "fs-extra": "^11.3.2",
+    "inquirer": "^13.0.2",
+    "mongoose": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
