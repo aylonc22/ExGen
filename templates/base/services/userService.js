@@ -1,4 +1,4 @@
-import {userQueries} from '../db/index';
+import {userQueries} from '../../mongo/db/index';
 
 export async function getAllUsers() {
     return userQueries.getAllUsers();
